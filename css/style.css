@@ -1,0 +1,32 @@
+*{
+    font-family: "Poppins", serif;
+}
+:root{
+    --green-color: #70C45D;
+    --bg-green: #f0f7f1 ;
+}
+span{
+    color: var(--green-color);
+}
+li{
+    a{
+        color: black !important;
+    }
+    .active{
+        color: var(--green-color) !important;
+    }
+}
+li{
+    a:hover{
+        color: #70C45D !important;
+    }
+}
+.myBg1{
+    background-color: var(--bg-green);
+    #btn1{
+        background-color: var(--green-color);
+    }
+    #btn2{
+        color: var(--green-color);
+    }
+}
