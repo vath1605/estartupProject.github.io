@@ -45,4 +45,50 @@ li{
 }
 .myBtn2{
     background-color: var(--green-color) !important;
+    transition: all 200ms ease-in-out;
+    svg{
+        transition: all 200ms ease-in-out;
+    }
+}
+.myBtn2:hover{
+    background-color: #9dda90 !important;
+    svg{
+        transform: translateX(5px);
+    }
+}
+.myBtn3{
+    background-color: var(--bg-green) !important; 
+    color: var(--green-color) !important;
+}
+.bgSvg{
+    width: 60px !important;
+    height: 60px !important; 
+    background-color: var(--green-color);
+    place-items: center;
+}
+.myCard2{
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+.lay{
+    transition: all 250ms ease-in-out;
+    .bglay{
+        transition: all 250ms ease-in-out;
+        border-radius: 20px;
+        background-color: var(--green-color) !important;
+        a{
+            transition: all 250ms ease-in-out;
+        }
+    }
+}
+.lay:hover{
+    transform: translateY(-10px);
+    .bglay{
+        border-radius: 28px;
+        margin-top: -5px !important;
+        padding-bottom: 6px !important;
+        a{
+            color: var(--green-color) !important;
+        }
+    }
 }
