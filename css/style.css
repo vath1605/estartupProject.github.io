@@ -92,3 +92,46 @@ li{
         }
     }
 }
+.myBg2{
+    background-color: var(--bg-green);
+    .myBtn4{
+         background-color: #c7efbe; 
+         color: var(--green-color);
+    }
+}
+.myCard3{
+    height: 80px;
+    background-color: white !important;
+    .bgSvg{
+        transition: all 200ms ease-in-out;
+        width: 37px !important;
+        height: 30px !important;
+        background-color: #d5e4d1;
+        place-items: center;
+    }
+}
+.myCard3:hover{
+    .bgSvg{
+        background-color: var(--green-color) !important;
+        svg{
+            fill: white !important;
+        }
+    }
+}
+.myBtn5{
+    background-color: var(--bg-green) !important;
+    color: var(--green-color) !important;
+}
+.myCard4{
+    height: 520px;
+    background-color: white;
+    .myBtn6{
+        border: 1px solid var(--green-color) !important;
+        color: var(--green-color);
+    }
+    .myBtn6:hover{
+        border: 1px solid var(--green-color) !important;
+        background-color: var(--green-color) !important;
+        color: white !important;
+    }
+}
