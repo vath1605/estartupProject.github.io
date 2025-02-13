@@ -135,3 +135,9 @@ li{
         color: white !important;
     }
 }
+.myBg3{
+    background-color: var(--bg-green);
+    .p{
+        font-size: 14px;
+    }
+}
